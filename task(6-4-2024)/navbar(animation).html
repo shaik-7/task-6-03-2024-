@@ -1,0 +1,67 @@
+<body>
+    <head>
+        <style>
+            nav{
+                position:fixed;
+                padding:30px 50px;
+                width:100%;
+                background-color:cornflowerblue;
+            }
+            section{
+                padding: 15px 10px;
+                width: 90px;
+                position:relative;
+                left:30px;
+                text-align: center;
+                border-top: 5px;
+                border-top-color: black;
+                border-top-style: groove;
+                border-right: 5px;
+                border-right-color: black;
+                border-right-style: groove;
+                border-left: 5px;
+                border-left-color: black;
+                border-left-style: groove;
+                border-bottom:5px;
+                border-bottom-color:black;
+                animation-name:expand;
+                animation-duration: 4s;
+                animation-fill-mode: both;
+            }
+            @keyframes expand{
+                0%{
+                    border-bottom:6px;
+                    border-style: groove;
+                    border-bottom-color: crimson;
+                }
+                25%{
+                    border-bottom:8px;
+                    border-style: groove;
+                    border-bottom-color: crimson;
+                }
+                50%{
+                    border-bottom:10px;
+                    border-style: groove;
+                    border-bottom-color: crimson;
+                }
+                75%{
+                    border-bottom: 12px;
+                    border-style: groove;
+                    border-bottom-color: crimson;
+                }
+                100%{
+                    border-bottom: 14px;
+                    border-style:groove;
+                    border-bottom-color: crimson;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <center>
+            <section>Title1</section>  <section>Title2</section>  <section>Title3</section>
+            </center>
+        </nav>
+    </body>
+</body>

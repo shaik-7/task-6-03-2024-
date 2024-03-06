@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url('basketball.png');
+                background-repeat: no-repeat;
+                background-position: top center;
+                background-size:contain;
+                margin: 0; /* Remove default margin to ensure full coverage */
+                height: 40vh;
+                background-color: black;
+            }
+            div{
+                padding:20px;
+                border-radius:50%;
+                width: 95px;
+                height: 90px;
+                background-color: orange;
+                position:relative;
+                top:295px;
+                left:860px;
+                animation-name:anime;
+                animation-direction:alternate-reverse;
+                animation-duration:750ms;
+                animation-iteration-count:infinite;
+            }
+            @keyframes anime{
+                0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            40% {
+                transform: translateY(200px) rotate(0deg);
+            }
+            60% {
+                transform: translateY(200px) rotate(0deg);
+            }
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
